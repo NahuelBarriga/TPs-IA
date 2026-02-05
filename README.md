@@ -28,6 +28,11 @@ cd TPs-IA
 
 2. Install the required dependencies:
 ```bash
+pip install -r requirements.txt
+```
+
+Or install packages individually:
+```bash
 pip install numpy matplotlib scikit-fuzzy scikit-learn pandas-datareader keras tensorflow
 ```
 
@@ -154,6 +159,7 @@ For the Python script:
 cd "Redes Neuronales"
 python RN_ej1
 ```
+Note: The RN_ej1 file does not have a .py extension but is a valid Python script.
 
 For the Jupyter notebook:
 ```bash
